@@ -7,9 +7,9 @@ Tactical strategy set in IO's time period. Player controls camera around the bat
 
 ### Milestone 1: Outline
 
-    [] simple scenery
-    [] simple player controlled camera
-    [] squad of troops
+    [x] simple scenery
+    [x] simple player controlled camera
+    [x] squad of troops
     [] mouse selection 
-    [] movement orders for squad
+    [x] movement orders for squad
     
