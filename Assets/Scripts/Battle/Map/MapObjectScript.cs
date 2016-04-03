@@ -8,7 +8,7 @@ public class MapObjectScript : MonoBehaviour
     public int Horizontal;
     public int HorizontalLength;
     public int HeightLength;
-    
+
     public Color GizmoColorBase = Color.red;
     public Color GizmoColorHighlight = Color.blue;
     public Color GizmoColorSelected = Color.green;
@@ -46,8 +46,8 @@ public class MapObjectScript : MonoBehaviour
     void OnMouseDown()
     {
         GizmoColor = GizmoColorSelected;
-
-        Debug.Log("Clicked on " + gameObject);
+        
+        DirectionDirectorScript.Instance.MapObjectSelected(gameObject);
     }
 
     void OnMouseExit()
