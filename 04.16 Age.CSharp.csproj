@@ -70,6 +70,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Battle\Camera\CameraControlScript.cs" />
+    <Compile Include="Assets\Scripts\Battle\Debug\DebugSquareBoundariesGizmosScript.cs" />
+    <Compile Include="Assets\Scripts\Battle\Map\MapCreatorScript.cs" />
+    <Compile Include="Assets\Scripts\Battle\Map\MapObjectScript.cs" />
     <Compile Include="Assets\Scripts\Input\InputManagerScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
