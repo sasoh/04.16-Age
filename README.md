@@ -13,3 +13,6 @@ Tactical strategy set in IO's time period. Player controls camera around the bat
     [] mouse selection 
     [x] movement orders for squad
     
+Status screenshot: 
+
+![](http://i.imgur.com/VmMmI06.png)
